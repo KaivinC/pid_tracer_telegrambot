@@ -27,7 +27,7 @@ def Check_pid_exist(name):
 def start(bot, update):
     message = update.message
     chat = message['chat']
-    update.message.reply_text(text='The pid you want to check is?')
+    update.message.reply_text(text='The pid you want to check?')
 
 def echo(bot, update):
     message = update.message
