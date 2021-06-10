@@ -7,7 +7,7 @@ import os
 import sys
 import subprocess
 
-token = "1895658272:AAE65prqznzRYIflpsxM-4wYDF_IAEqnN2c"
+token = ""
 
 updater = Updater(token=token, use_context=False)
 
